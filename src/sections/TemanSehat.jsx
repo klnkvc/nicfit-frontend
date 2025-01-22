@@ -296,7 +296,7 @@ function TemanSehat() {
               </p>
             </div>
             <div className="pt-20">
-              <img src="public/images/belum_login3.svg" alt="belum login" />
+              <img src="/images/belum_login3.svg" alt="belum login" />
             </div>
           </section>
 

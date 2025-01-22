@@ -4,10 +4,6 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import {Bank} from "../components";
 
-import bca from "public/images/bca.svg";
-import bni from "public/images/bni.svg";
-import bri from "public/images/bri.svg";
-
 function Penjadwalan() {
   // Ganti nama fungsi menjadi Penjadwalan
   const [selectedDate, setSelectedDate] = useState(new Date());
@@ -96,9 +92,9 @@ function Penjadwalan() {
             <h1 className="text-base font-semibold">Pilih Metode Pembayaran</h1>
             <p className="text-[10px] text-[#AEAEAE] mt-2">Pilih Bank</p>
             <div className="flex flex-row gap-[15px] mt-6">
-              <Bank imgLogo={bca} title="BCA" linkTo={"/transaksi"} />
-              <Bank imgLogo={bni} title="BNI" linkTo={"/transaksi"} />
-              <Bank imgLogo={bri} title="BRI" linkTo={"/transaksi"} />
+              <Bank imgLogo={"/images/bca.svg"} title="BCA" linkTo={"/transaksi"} />
+              <Bank imgLogo={"/images/bna.svg"} title="BNI" linkTo={"/transaksi"} />
+              <Bank imgLogo={"/images/bri.svg"} title="BRI" linkTo={"/transaksi"} />
             </div>
           </div>
         </div>

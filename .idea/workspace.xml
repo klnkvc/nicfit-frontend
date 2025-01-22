@@ -7,8 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1e0ab2c-d8f4-4dd5-814c-ffb37f2bab92" name="Changes" comment="Optimize imports and fix images path">
+    <list default="true" id="d1e0ab2c-d8f4-4dd5-814c-ffb37f2bab92" name="Changes" comment="fix images path">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/DashboardPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/DashboardPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Konsultasi.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Konsultasi.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/Payment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Payment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Penjadwalan.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Penjadwalan.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/TemanSehat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/TemanSehat.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/Transaksi.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Transaksi.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +49,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -123,7 +129,7 @@
       <workItem from="1718974916730" duration="883000" />
       <workItem from="1719029891139" duration="3375000" />
       <workItem from="1719220482280" duration="6300000" />
-      <workItem from="1737511604349" duration="3015000" />
+      <workItem from="1737511604349" duration="6290000" />
     </task>
     <task id="LOCAL-00001" summary="versi 14 mengganti sequelize dengan backend pure vanilla biasa">
       <option name="closed" value="true" />
@@ -205,18 +211,56 @@
       <option name="project" value="LOCAL" />
       <updated>1737514508393</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix images path">
+      <option name="closed" value="true" />
+      <created>1737514921709</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737514921709</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="b86c4d6f-1493-4f60-945b-f5ef6350068c" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State />
+          </value>
+        </entry>
+        <entry key="b86c4d6f-1493-4f60-945b-f5ef6350068c">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/Infinite Learning/Hosting/Batch 6/Nicfit/nicfit-frontend/node_modules/flatted" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
           </value>
         </entry>
       </map>
@@ -228,6 +272,7 @@
     <MESSAGE value="add axios interceptor and implement env" />
     <MESSAGE value="import cleanup" />
     <MESSAGE value="Optimize imports and fix images path" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimize imports and fix images path" />
+    <MESSAGE value="fix images path" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix images path" />
   </component>
 </project>
