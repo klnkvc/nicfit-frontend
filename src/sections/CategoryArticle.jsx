@@ -1,4 +1,3 @@
-import React from "react";
 import SectionWrapper from "../components/common/section-wrapper";
 import { Input } from "../components/ui/input";
 import { capitalizeFirstLetter } from "../lib/strings";

@@ -6,7 +6,6 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [userrole, setRole] = useState("");
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [msg, setMsg] = useState("");
 
   const navigate = useNavigate();
@@ -16,7 +15,7 @@ const Login = () => {
 
     if (!email || !password) {
       console.log("Please fill in all fields");
-      return;
+
     } else {
       try {
         const response = await axios.post("/login", {

@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1e0ab2c-d8f4-4dd5-814c-ffb37f2bab92" name="Changes" comment="remove node modules and add gitignore">
-      <change afterPath="$PROJECT_DIR$/.env.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Daftar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Daftar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/DashboardPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/DashboardPage.jsx" afterDir="false" />
+    <list default="true" id="d1e0ab2c-d8f4-4dd5-814c-ffb37f2bab92" name="Changes" comment="add axios interceptor and implement env">
+      <change beforePath="$PROJECT_DIR$/src/components/common/navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/carousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/carousel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/ArticlePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/ArticlePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Artikel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Artikel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/CategoryArticle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/CategoryArticle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Chat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Chat.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/KataSandiBaru.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/KataSandiBaru.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Konsultasi.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Konsultasi.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/LupaSandi.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/LupaSandi.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/TemanSehat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/TemanSehat.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Penjadwalan.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Penjadwalan.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +66,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -126,7 +124,7 @@
       <workItem from="1718974916730" duration="883000" />
       <workItem from="1719029891139" duration="3375000" />
       <workItem from="1719220482280" duration="6300000" />
-      <workItem from="1737511604349" duration="1675000" />
+      <workItem from="1737511604349" duration="1987000" />
     </task>
     <task id="LOCAL-00001" summary="versi 14 mengganti sequelize dengan backend pure vanilla biasa">
       <option name="closed" value="true" />
@@ -184,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737511778859</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add axios interceptor and implement env">
+      <option name="closed" value="true" />
+      <created>1737513348426</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737513348426</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +210,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="versi 14 mengganti sequelize dengan backend pure vanilla biasa" />
     <MESSAGE value="remove node modules and add gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove node modules and add gitignore" />
+    <MESSAGE value="add axios interceptor and implement env" />
+    <option name="LAST_COMMIT_MESSAGE" value="add axios interceptor and implement env" />
   </component>
 </project>

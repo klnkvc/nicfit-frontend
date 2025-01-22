@@ -12,7 +12,6 @@ import {
 } from "../components/ui/carousel";
 import AppLayout from "../layouts/app-layout";
 // import { capitalizeFirstLetter } from "../lib/tailwind-utils";
-import React from "react";
 import { Link, useParams } from "react-router-dom";
 
 export default function Artikel() {

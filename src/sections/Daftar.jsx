@@ -15,10 +15,10 @@ const Daftar = () => {
 
     if (!email || !username || !password || !confirmPassword) {
       setMsg("Please fill in all fields");
-      return;
+
     } else if (password !== confirmPassword) {
       setMsg("Passwords do not match");
-      return;
+
     } else {
       try {
         await axios.post("/register", {

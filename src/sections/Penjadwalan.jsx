@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { FaStar } from "react-icons/fa";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { Link, useNavigate } from "react-router-dom"; // Ganti Redirect dengan useNavigate
-import { Bank, Button } from "../components";
+import { useNavigate } from "react-router-dom"; // Ganti Redirect dengan useNavigate
+import { Bank } from "../components";
 
 import bca from "/images/bca.svg";
 import bni from "/images/bni.svg";
@@ -20,14 +20,6 @@ function Penjadwalan() {
   const [modalClass, setModalClass] = useState("modal-close");
   const [popupCount, setPopupCount] = useState(0);
   const navigate = useNavigate(); // Tambahkan useNavigate
-
-  const handlePopupChoice = (choice) => {
-    if (popupCount === 0) {
-      setPopupCount(popupCount + 1);
-    } else {
-      navigate(choice === "bank1" ? "/page1" : "/page2"); // Gunakan navigate
-    }
-  };
 
   const handleCloseModal = () => {
     setModalClass("modal-close");

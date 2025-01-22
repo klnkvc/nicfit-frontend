@@ -7,7 +7,6 @@ const KataSandiBaru = () => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const navigate = useNavigate();
-  const location = useLocation();
   const { email } = useParams();
 
   const handleSubmit = async (e) => {

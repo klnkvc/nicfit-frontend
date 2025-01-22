@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { categoryArticle } from "../assets/dummy/category-article";
 import { Card, CardContent, CardFooter } from "../components/ui/card";
