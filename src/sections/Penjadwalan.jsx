@@ -93,7 +93,7 @@ function Penjadwalan() {
             <p className="text-[10px] text-[#AEAEAE] mt-2">Pilih Bank</p>
             <div className="flex flex-row gap-[15px] mt-6">
               <Bank imgLogo={"/images/bca.svg"} title="BCA" linkTo={"/transaksi"} />
-              <Bank imgLogo={"/images/bna.svg"} title="BNI" linkTo={"/transaksi"} />
+              <Bank imgLogo={"/images/bni.svg"} title="BNI" linkTo={"/transaksi"} />
               <Bank imgLogo={"/images/bri.svg"} title="BRI" linkTo={"/transaksi"} />
             </div>
           </div>
