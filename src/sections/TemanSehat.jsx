@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
-import { FaSearch } from "react-icons/fa";
-import { Button } from "./../components";
+import {useEffect, useState} from "react";
+import {Link} from "react-router-dom";
+import {FaChevronLeft, FaChevronRight} from "react-icons/fa6";
+import {FaSearch} from "react-icons/fa";
+import {Button} from "./../components";
 import axios from "../utils/axios.js";
 
 function TemanSehat() {
@@ -296,7 +296,7 @@ function TemanSehat() {
               </p>
             </div>
             <div className="pt-20">
-              <img src="../images/belum_login3.svg" alt="belum login" />
+              <img src="public/images/belum_login3.svg" alt="belum login" />
             </div>
           </section>
 

@@ -1,8 +1,8 @@
-import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
-import { konsultanKu } from "../assets/dummy/category-konsultan";
-import { Collapse } from "../components";
-import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import {FaChevronLeft, FaChevronRight} from "react-icons/fa";
+import {konsultanKu} from "../assets/dummy/category-konsultan";
+import {Collapse} from "../components";
+import {useEffect, useState} from "react";
+import {Link} from "react-router-dom";
 
 function Payment() {
   const [isModalSuccess, setisModalSuccess] = useState(false);

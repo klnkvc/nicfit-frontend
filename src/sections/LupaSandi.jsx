@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
-import { lupa } from '../assets/images'
+import {useState} from 'react'
+import {useNavigate} from 'react-router-dom'
+import {lupa} from '../assets/images'
 
 const LupaSandi = () => {
   const [email, setEmail] = useState('')

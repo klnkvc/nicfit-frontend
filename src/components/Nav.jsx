@@ -1,17 +1,17 @@
-import { useState, useEffect } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
-import { hamburger, logoNicFit } from "../assets/icons";
-import { navLinks } from "../constants";
+import {useEffect, useState} from "react";
+import {Link, useLocation, useNavigate} from "react-router-dom";
+import {hamburger, logoNicFit} from "../assets/icons";
+import {navLinks} from "../constants";
 import "../index.css";
-import { Button } from "./ui/button.jsx";
-import { FaUser } from "react-icons/fa";
+import {Button} from "./ui/button.jsx";
+import {FaUser} from "react-icons/fa";
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuLabel,
+    DropdownMenuSeparator,
+    DropdownMenuTrigger,
 } from "./ui/dropdown-menu.jsx";
 import axios from "../utils/axios.js";
 

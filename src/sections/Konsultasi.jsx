@@ -1,14 +1,15 @@
-import { useState, useEffect } from "react";
-import { FaChevronRight, FaChevronLeft, FaSearch } from "react-icons/fa";
-import { konsultasi } from "../assets/images";
-import { konsultan, konsultanKu } from "../assets/dummy/category-konsultan";
-import { Bank, Button } from "../components";
-import { Link } from "react-router-dom";
+import {useEffect, useState} from "react";
+import {FaChevronLeft, FaChevronRight, FaSearch} from "react-icons/fa";
+import {konsultasi} from "../assets/images";
+import {konsultan, konsultanKu} from "../assets/dummy/category-konsultan";
+import {Bank, Button} from "../components";
+import {Link} from "react-router-dom";
 
-import bca from "/images/bca.svg";
-import bni from "/images/bni.svg";
-import bri from "/images/bri.svg";
+import bca from "public/images/bca.svg";
+import bni from "public/images/bni.svg";
+import bri from "public/images/bri.svg";
 import axios from "../utils/axios.js";
+
 // import Payment from "./Payment";
 
 function Konsultasi() {
@@ -418,7 +419,7 @@ function Konsultasi() {
               </p>
             </div>
             <div className="pt-20">
-              <img src="../images/belum_login2.svg" alt="belum login" />
+              <img src="public/images/belum_login2.svg" alt="belum login" />
             </div>
           </section>
 

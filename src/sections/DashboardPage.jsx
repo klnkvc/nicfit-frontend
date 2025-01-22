@@ -1,13 +1,9 @@
 // import SectionWrapper from "../components/common/section-wrapper";
 // import AppLayout from "../layouts/app-layout";
 // import React from "react";
-import { useEffect, useState } from "react";
-import {
-  Link,
-  // useLocation,
-  // useNavigate
-} from "react-router-dom";
-import { Button } from "./../components";
+import {useEffect, useState} from "react";
+import {Link,} from "react-router-dom";
+import {Button} from "./../components";
 import axios from "../utils/axios.js";
 
 function DashboardPage() {
@@ -505,7 +501,7 @@ function DashboardPage() {
               </p>
             </div>
             <div className="pt-20">
-              <img src="../images/belum_login.svg" alt="belum login" />
+              <img src="public/images/belum_login.svg" alt="belum login" />
             </div>
           </section>
 

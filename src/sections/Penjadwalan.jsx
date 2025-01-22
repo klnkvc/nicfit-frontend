@@ -1,13 +1,12 @@
-import { useState, useEffect } from "react";
-import { FaStar } from "react-icons/fa";
+import {useEffect, useState} from "react";
+import {FaStar} from "react-icons/fa";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { useNavigate } from "react-router-dom"; // Ganti Redirect dengan useNavigate
-import { Bank } from "../components";
+import {Bank} from "../components";
 
-import bca from "/images/bca.svg";
-import bni from "/images/bni.svg";
-import bri from "/images/bri.svg";
+import bca from "public/images/bca.svg";
+import bni from "public/images/bni.svg";
+import bri from "public/images/bri.svg";
 
 function Penjadwalan() {
   // Ganti nama fungsi menjadi Penjadwalan
@@ -18,8 +17,6 @@ function Penjadwalan() {
   const [selectedPeriod, setSelectedPeriod] = useState("Pagi");
   const [isModalPayment, setisModalPayment] = useState(false);
   const [modalClass, setModalClass] = useState("modal-close");
-  const [popupCount, setPopupCount] = useState(0);
-  const navigate = useNavigate(); // Tambahkan useNavigate
 
   const handleCloseModal = () => {
     setModalClass("modal-close");

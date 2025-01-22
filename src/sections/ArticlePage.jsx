@@ -1,14 +1,8 @@
-import { Link } from "react-router-dom";
-import { categoryArticle } from "../assets/dummy/category-article";
-import { Card, CardContent, CardFooter } from "../components/ui/card";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "../components/ui/carousel";
-import { Input } from "../components/ui/input";
+import {Link} from "react-router-dom";
+import {categoryArticle} from "../assets/dummy/category-article";
+import {Card, CardContent, CardFooter} from "../components/ui/card";
+import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious,} from "../components/ui/carousel";
+import {Input} from "../components/ui/input";
 import SectionWrapper from "../components/common/section-wrapper";
 
 function ArticlePage() {
