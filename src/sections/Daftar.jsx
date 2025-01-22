@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import axios from "axios";
+import axios from "../utils/axios.js";
 
 const Daftar = () => {
   const navigate = useNavigate();
@@ -21,7 +21,7 @@ const Daftar = () => {
       return;
     } else {
       try {
-        await axios.post("https://nicfit-backend.vercel.app/register", {
+        await axios.post("/register", {
           username: username,
           email: email,
           password: password,

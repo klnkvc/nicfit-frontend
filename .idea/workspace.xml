@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1e0ab2c-d8f4-4dd5-814c-ffb37f2bab92" name="Changes" comment="memperbaiki kode" />
+    <list default="true" id="d1e0ab2c-d8f4-4dd5-814c-ffb37f2bab92" name="Changes" comment="remove node modules and add gitignore">
+      <change afterPath="$PROJECT_DIR$/.env.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Daftar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Daftar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/DashboardPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/DashboardPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/KataSandiBaru.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/KataSandiBaru.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Konsultasi.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Konsultasi.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/LupaSandi.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/LupaSandi.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/TemanSehat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/TemanSehat.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +46,9 @@
     &quot;accountId&quot;: &quot;51db5c67-92c6-4003-bdce-0225747d154a&quot;
   }
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -41,20 +57,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/PINTASAN/Unduhan/Nicfit v14/Nicfit v14/nicfit&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/Infinite Learning/Hosting/Batch 6/Nicfit/nicfit-frontend/src/utils",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -63,6 +81,29 @@
         <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Infinite Learning\Hosting\Batch 6\Nicfit\nicfit-frontend\src\utils" />
+      <recent name="E:\Infinite Learning\Hosting\Batch 6\Nicfit\nicfit-frontend" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -85,6 +126,7 @@
       <workItem from="1718974916730" duration="883000" />
       <workItem from="1719029891139" duration="3375000" />
       <workItem from="1719220482280" duration="6300000" />
+      <workItem from="1737511604349" duration="1675000" />
     </task>
     <task id="LOCAL-00001" summary="versi 14 mengganti sequelize dengan backend pure vanilla biasa">
       <option name="closed" value="true" />
@@ -134,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719226072507</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="remove node modules and add gitignore">
+      <option name="closed" value="true" />
+      <created>1737511778859</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737511778859</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +203,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="versi 14 mengganti sequelize dengan backend pure vanilla biasa" />
-    <option name="LAST_COMMIT_MESSAGE" value="versi 14 mengganti sequelize dengan backend pure vanilla biasa" />
+    <MESSAGE value="remove node modules and add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove node modules and add gitignore" />
   </component>
 </project>

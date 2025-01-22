@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { lupa } from '../assets/images'
-import axios from 'axios'
 
 const LupaSandi = () => {
   const [email, setEmail] = useState('')

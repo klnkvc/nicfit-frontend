@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
 import { FaSearch } from "react-icons/fa";
 import { Button } from "./../components";
-import axios from "axios";
+import axios from "../utils/axios.js";
 
 function TemanSehat() {
   const [selected, setSelected] = useState("Komunitas");
@@ -20,7 +20,7 @@ function TemanSehat() {
 
   const fetchUsername = async () => {
     try {
-      const response = await axios.get("https://nicfit-backend.vercel.app/me", {
+      const response = await axios.get("/me", {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("refresh_token")}`,
         },

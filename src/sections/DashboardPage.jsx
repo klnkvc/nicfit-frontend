@@ -1,7 +1,6 @@
 // import SectionWrapper from "../components/common/section-wrapper";
 // import AppLayout from "../layouts/app-layout";
 // import React from "react";
-import axios from "axios";
 import { useEffect, useState } from "react";
 import {
   Link,
@@ -9,6 +8,7 @@ import {
   // useNavigate
 } from "react-router-dom";
 import { Button } from "./../components";
+import axios from "../utils/axios.js";
 
 function DashboardPage() {
   // const location = useLocation();
@@ -31,7 +31,7 @@ function DashboardPage() {
 
   const fetchUsername = async () => {
     try {
-      const response = await axios.get("https://nicfit-backend.vercel.app/me", {
+      const response = await axios.get("/me", {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("refresh_token")}`,
         },

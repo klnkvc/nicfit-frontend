@@ -4,11 +4,11 @@ import { konsultasi } from "../assets/images";
 import { konsultan, konsultanKu } from "../assets/dummy/category-konsultan";
 import { Bank, Button } from "../components";
 import { Link } from "react-router-dom";
-import axios from "axios";
 
 import bca from "/images/bca.svg";
 import bni from "/images/bni.svg";
 import bri from "/images/bri.svg";
+import axios from "../utils/axios.js";
 // import Payment from "./Payment";
 
 function Konsultasi() {
@@ -29,7 +29,7 @@ function Konsultasi() {
 
   const fetchUsername = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/me", {
+      const response = await axios.get("/me", {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("refresh_token")}`,
         },

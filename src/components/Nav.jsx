@@ -3,7 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { hamburger, logoNicFit } from "../assets/icons";
 import { navLinks } from "../constants";
 import "../index.css";
-import { Button } from "../components/ui/button";
+import { Button } from "./ui/button.jsx";
 import { FaUser } from "react-icons/fa";
 import {
   DropdownMenu,
@@ -12,8 +12,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "../components/ui/dropdown-menu";
-import axios from "axios";
+} from "./ui/dropdown-menu.jsx";
+import axios from "../utils/axios.js";
 
 const Nav = () => {
   const location = useLocation();
@@ -36,7 +36,7 @@ const Nav = () => {
 
   const fetchUsername = async () => {
     try {
-      const response = await axios.get("https://nicfit-backend.vercel.app/me", {
+      const response = await axios.get("/me", {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("refresh_token")}`,
         },

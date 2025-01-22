@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { lupa } from "../assets/images";
-import axios from "axios";
+import axios from "../utils/axios.js";
 
 const KataSandiBaru = () => {
   const [password, setPassword] = useState("");
@@ -21,7 +21,7 @@ const KataSandiBaru = () => {
 
     try {
       const response = await axios.put(
-        "https://nicfit-backend.vercel.app/user/password",
+        "/user/password",
         {
           email,
           password,
