@@ -7,13 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1e0ab2c-d8f4-4dd5-814c-ffb37f2bab92" name="Changes" comment="import cleanup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/DashboardPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/DashboardPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/KataSandiBaru.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/KataSandiBaru.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Konsultasi.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Konsultasi.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Penjadwalan.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Penjadwalan.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/TemanSehat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/TemanSehat.jsx" afterDir="false" />
+    <list default="true" id="d1e0ab2c-d8f4-4dd5-814c-ffb37f2bab92" name="Changes" comment="Optimize imports and fix images path">
+      <change beforePath="$PROJECT_DIR$/src/sections/Payment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Payment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Transaksi.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Transaksi.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +43,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -127,7 +123,7 @@
       <workItem from="1718974916730" duration="883000" />
       <workItem from="1719029891139" duration="3375000" />
       <workItem from="1719220482280" duration="6300000" />
-      <workItem from="1737511604349" duration="2675000" />
+      <workItem from="1737511604349" duration="3015000" />
     </task>
     <task id="LOCAL-00001" summary="versi 14 mengganti sequelize dengan backend pure vanilla biasa">
       <option name="closed" value="true" />
@@ -201,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737513794102</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Optimize imports and fix images path">
+      <option name="closed" value="true" />
+      <created>1737514508393</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737514508393</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +227,7 @@
     <MESSAGE value="remove node modules and add gitignore" />
     <MESSAGE value="add axios interceptor and implement env" />
     <MESSAGE value="import cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="import cleanup" />
+    <MESSAGE value="Optimize imports and fix images path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimize imports and fix images path" />
   </component>
 </project>
